@@ -1,0 +1,267 @@
+body{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 12px;
+    margin:0;
+    padding:0;
+    margin: auto;
+    height:100%;
+     
+}
+
+.wrapper{
+
+margin: auto;
+}
+
+
+header {
+    background: linear-gradient(to right, rgba(255,0,0,0), rgb(131, 151, 177));  
+  
+  padding: 5px 0;
+  height: 290px;
+   text-align: center ;
+    color:tomato;
+    font-size: 1.3em;
+   margin-bottom:55px; 
+   letter-spacing: 5px;
+   text-shadow: 1px 1px 4px black, 0 0 25px white, 0 0 5px tomato;
+   font-family: 'Audiowide', cursive;
+}
+
+
+
+
+
+
+nav > ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+nav  ul li  {
+    float:left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color:orange;
+    
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+img{
+    width: 100px;
+  height: 100px;
+  line-height: 200px;
+  border-radius: 50%; /* the magic */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  color: white;
+    
+     position: absolute;
+     top:310px;
+     left:45%;
+     background: white ;
+    
+}
+
+
+footer1{
+    background: DodgerBlue;
+    padding:5px 5px;
+    color:white;
+    position: relative;
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    left:0;
+    width:100%; 
+}
+
+html, body {
+    height: 100%;
+    }
+
+footer {
+    
+    height: 100px;
+    background: linear-gradient(to right, rgba(255,0,0,0), rgb(131, 151, 177));
+    padding: 10px;
+    position: relative;
+    color:tomato;
+    text-align: center;
+    font-size:2.0em;
+  }
+
+.footericons{
+    float: right;
+    position: absolute;
+    top:15px;
+    right:15px; 
+    
+}
+
+.info{
+    background: linear-gradient(to right, rgba(255,0,0,0), rgb(131, 151, 177));
+    width:250px;
+    height:300px;
+    font-size: 1.1em;    
+    background:tomato;
+    color:white;
+    border-radius:5px;
+    
+    border-bottom:8px  #800080 solid ;
+   
+    margin: 6px;
+    padding: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.info h1 , .expinfo h1  {
+    color:lightgray;
+    text-decoration: underline;
+    
+}
+
+
+.expinfo  {
+    width:700px; 
+    margin:auto ;
+    
+}
+.expinfo h1 {
+    text-align: center ;
+}
+
+
+.skillsinfo {
+    display: flex;
+    justify-content: center;
+    background-color: DodgerBlue;
+}
+
+
+
+
+
+
+.experinecetbl  tr td   {
+  border:1px solid rgb(170, 167, 167);
+  padding:5px;
+  padding:10px ;
+}
+
+.experinecetbl tr:nth-child(2n){
+  background:tomato;
+  color:white;
+}
+ .experinecetbl th{
+    background:tomato ;
+    color:white;
+    
+}
+
+.searchfrm {
+    float: right;
+    vertical-align: middle;
+}
+
+
+/*
+Form css
+*/
+
+body
+{
+  background-color: #fcfcfc;
+}
+.center-div
+{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  top: 410px;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  
+  border-radius: 3px;
+}
+h2 {
+  text-align: center;
+}
+
+form {
+  background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  margin: auto;
+  position: relative;
+  width: 550px;
+  height: 450px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 24px;
+  font-weight: bold;
+  color: #09C;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #999;
+  border: inset 1px solid #333;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+input {
+  width: 375px;
+  display: block;
+  border: 1px solid #999;
+  height: 25px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+textarea#feedback {
+  width: 375px;
+  height: 150px;
+  display: block;
+}
+
+button {
+  width: 100px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background: #09C;
+  color: #fff;
+  font-family: Tahoma, Geneva, sans-serif;
+  height: 30px;
+  border-radius: 15px;
+  border: 1p solid #999;
+}
+
+input[type=button]:hover {
+  background: #09C ;
+  color:#fff;
+}
+/*
+End form css
+*/
